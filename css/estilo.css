@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    border: 2px solid black;
+    width: 55%;
+    margin: auto auto;
+    color: white;
+    background-color: gray;
+
+}
+
+
+
+.title {
+    font-size: 50px;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+    background-color: black;
+    color: white;
+    text-shadow: 2px 3px 6px yellow;
+    border-radius: 18px;
+
+}
+
+.formulario {
+    width: 95%;
+    margin: auto auto;
+    text-align: start;
+
+}
+
+
+
+.inputs input {
+    font-size: 28px;
+    margin-bottom: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.content span {
+    color: red;
+}
+
+.span {
+    font-size: 20px;
+    display: none;
+}
+
+.inputs textarea {
+    background-color: black;
+    color: white;
+    width: 65%;
+    margin-bottom: 2%;
+}
+
+.campos-select {
+    width: 85%;
+    margin: 2% 0%;
+    height: 470px;
+
+}
+
+.legenda {
+    width: 50%;
+    margin: 0% 2%;
+    font-size: 35px;
+    margin-bottom: 2%;
+    text-align: start;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.box-select {
+    display: flex;
+    width: 83%;
+    justify-content: space-around;
+    margin: 2% 2%;
+    font-size: 20px;
+    margin-bottom: 10%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.btn {
+    text-align: start;
+    margin-bottom: 5%;
+
+}
+
+.btn button {
+    font-size: 40px;
+    margin-left: 2%;
+    width: 30%;
+}
